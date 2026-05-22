@@ -1,0 +1,70 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: var(--radius);
+    margin-top: 5px;
+}
+
+input[type="submit"]{
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.9;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.erro{
+    color: var(--cor-erro);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.concluida{
+    background-color: #8cf091;
+}
+
+.pendente{
+    background-color: #ffffff;
+}
+
+div{
+    text-align: center;
+    margin-top: 15px;
+}
+
+p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+td a{
+    margin: 0 5px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+button{
+    height: auto;
+    width: auto;
+}
