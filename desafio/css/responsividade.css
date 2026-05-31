@@ -1,0 +1,21 @@
+@media(max-width: 768px){
+
+    table{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    td, th{
+        padding: 8px;
+    }
+
+    .btn{
+        display: block;
+        margin: 5px auto;
+    }
+
+    header h1{
+        font-size: 24px;
+    }
+
+}
